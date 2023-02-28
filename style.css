@@ -1,19 +1,25 @@
 body {
 	margin: 0;
 	font-family:Century-Gothic;
+    background-color: #000000;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
 }
 .links {
 	padding: 10px 15px;
 	height:30px;
-	background-color:#000000;
+	background-color:white;
 	overflow: hidden;
+    position: fixed;
 }
 .links a{
 	font-size:20px;
 	text-decoration:none;
 	padding:20px 20px 5px 20px;
 	margin-left:40px;
-	color:white;
+	color:black;
 	position: relative;
 }
 .links a::before {
@@ -24,7 +30,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #edd9c4;
+  background-color: black;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
@@ -33,7 +39,7 @@ body {
   transform: scaleX(1);
 }
 .active{
-	border-bottom: 2px solid #edd9c4;
+	border-bottom: 2px solid #000000;
 }
 
 .links {
@@ -41,26 +47,5 @@ body {
 	top: 0;
 	height:50px;
 }
-/*social mdia links*/
- 
 
-.socialmedia {
-  float:right;
-  margin-top:auto;
-}
-
-
-
-.fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa-facebook {
-  background:#0000ffff ;
-  color: white;
-}
+  
