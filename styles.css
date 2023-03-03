@@ -370,7 +370,6 @@ span.effect {
 }
 
 .experience .year-title,
-.gallery-item p.gallery-title,
 .blog-post .post-title {
     font-size: 1.6rem;
     font-weight: 600;
@@ -379,7 +378,6 @@ span.effect {
 }
 
 .experience .year-desc,
-.gallery-item p.gallery-desc,
 .blog-post .post-desc {
     font-size: 1.4rem;
 }
@@ -440,8 +438,8 @@ span.effect {
     border-radius: 5px;
     padding: 1rem;
     transition: all .3s;
+    
 }
-
 .gallery-item img,
 .blog-post img {
     width: 100%;
@@ -449,7 +447,7 @@ span.effect {
     margin-bottom: 1rem;
 }
 
-.gallery-item a,
+
 .blog-post a {
     display: inline-block;
     font-size: 1.4rem;
@@ -462,14 +460,14 @@ span.effect {
     transition: all .3s;
 }
 
-.gallery-item a:hover,
+
 .blog-post a:hover {
     color: var(--very-dark);
     border: 1px solid var(--color-primary);
     border-radius: 3px;
 }
 
-.gallery-item:hover
+
 .blog-post:hover p.post-title {
     background-color: rgba(170, 25, 134,.8);
     color: #fff;
