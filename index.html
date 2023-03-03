@@ -1,18 +1,287 @@
 <!DOCTYPE html>
-<html>
-  <head>
-	<link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>My Portfolio</title>
-  </head>
-  <body>
-	<div class="links">
-        <a href="home.html" class="active">Home</a>
-		<a href="about.html">About</a>
-		<a href="contact.html">Contact</a>
-       
-	</div>
-    
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- PortFolio Website</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <div class="all">
+        <header>
+            <div class="container">
+                <nav id="nav-ul">
+                    <ul class="nav-ul">
+                        <li class="nav-li active">
+                            <i class="fas fa-user"></i>
+                            <a href="#about" class="link" data-filter="content-about">About</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-suitcase"></i>
+                            <a href="#experiences" class="link" data-filter="content-experience">Experiences</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fa fa-image"></i>
+                            <a href="#gallery" class="link" data-filter="content-gallery">Gallery</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#contact" class="link" data-filter="content-contact">Contact</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- CONTENT SECTION -->
+        <section>
+            <div class="container main-container">
+                <!-- PROFILE SECTION -->
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile1.png" alt="man">
+                    </div>
+                    <div class="profile-content">
+                        <h2>Dionna A. Lorayna</h2>
+                        
+                        <div class="profile-icons">
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZWxDZhjSSqGBStmTtBkplXgTmVmCPNJbHWNhGNwCGqWPMXVnPwRgsxhkLvpLgjmBLJwCg" target="_blank">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                            <a href="https://github.com/DionnaLorayna"  target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://web.facebook.com/dionlorayna "  target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://web.telegram.org/z/#676936429"  target="_blank">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+
+                        </div>
+                        <div class="profile-cta my-border">
+                            <div><a href="https://github.com/DionnaLorayna" target="_blank">GitHub</a></div>
+                            <div><a href="tel:+639094221948" >Contact Me</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAIN CONTENT SECTION -->
+                <div class="content-all">
+                    <!-- CONTENT ABOUT -->
+                    <div class="content content-about" id="about">
+                        <div class="content-header">
+                            <h2><span>About</span> Me</h2>
+                        </div>
+                        <div class="content-details">
+                            <img src="images/logo.jpg" alt="profile">
+                            <p><span class="text">Hello! I'm</span><span class="name"> Dionna</span></p>
+                            <p>
+                                I'm BSIT student from Southland College of Kabankalan City, Negros Occidental.
+                                Aside as a student, I do a lot by helping  in our small printing shop.
+                                From day to day serving customer, I have a lot lesson and experience in dealing different people.
+
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT EXPERIENCES-->
+                    <div class="content content-experience" id="experiences">
+                        <div class="content-header">
+                            <h2>My Experiences</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="experience">
+                                <div class="my-experience education">
+                                    <div class="title">
+                                        <h3>SENIOR HIGH OJT</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2018-2019</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    PC BOY COMPUTER 
+                                                </p>
+                                                <p class="year-desc">
+                                                    Learned to assembled and diassembled computer parts.
+                                                    Also setup Computer PESONET.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-experience education">
+                                    <div class="title">
+                                        <h3>COLLEGE</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2019-2023</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    BSIT-SOUTHLAND COLLEGE  
+                                                </p>
+                                                <p class="year-desc">
+                                                    Learned to create different programs and websites,networking, mobile photography, digital art and many more.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-experience education">
+                                <div class="title">
+                                    <h3>STACKTREK OJT</h3>
+                                </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">Ongoing</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    Jaro, Iloilo City  
+                                                </p>
+                                                <p class="year-desc">
+                                                    Learning using new different programs and understanding new langauges and much more ahead.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-experience education">
+                                    <div class="title">
+                                        <h3>SIDE JOB</h3>
+                                    </div>
+                                        <div class="details">
+                                            <div class="specific-details">
+                                                <p class="year">Current</p>
+                                                <div class="year-details">
+                                                    <p class="year-title">
+                                                        Tabugon, Kabankalan City  
+                                                    </p>
+                                                    <p class="year-desc">
+                                                        Working in small printing shop that offer different services like photopy,lamination,develop photos, scanning and printing documents.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                            
+                            <!-- ADD A LINE -->
+                            <div class="content-line"></div>
+                            <!-- MY SKILLS -->
+                            <div class="my-skills">
+                                <div class="title">
+                                    <h3>My Skills</h3>
+                                </div>
+                                <div class="skills">
+                                    <div class="skill">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skill">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <p>Java</p>
+                                    </div>
+                                    <div class="skill">
+                                        <p>VISUAL BASIC</p>
+                                    </div>
+                                    <div class="skill">
+                                        <p>PHP</p>
+                                    </div>
+                                    <div class="skill">
+                                        <p>MySQL</p>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT GALLERY -->
+                    <div class="content content-gallery" id="gallery">
+                        <div class="content-header">
+                            <h2><span>My</span> Gallery</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="gallery">
+                                
+                                <div class="gallery-item">
+                                    <div class="myslide">
+                                    <img class="mySlideImages w3-animate-top" src="images/web3.png" style="width:100%">
+                                    <img class="mySlideImages w3-animate-top" src="images/web2.png" style="width:100%">
+                                  </div>
+                                  <p class="gallery-title">
+                                    Website Project
+                                </p>
+                                </div>
+
+                                <div class="gallery-item">
+                                    <div id="myslide">
+                                    <img class="mySlideImages w3-animate-top" src="images/system1.PNG" style="width:100%">
+                                    <img class="mySlideImages w3-animate-top" src="images/system2.PNG" style="width:100%">
+                                  </div>
+                                  <p class="gallery-title">
+                                    System Project
+                                </p>
+                                </div>
+
+                               
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTENT CONTACT -->
+                    <div class="content content-contact" id="contact">
+                        <div class="content-header">
+                            <h2>Contact Me</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="contact">
+                                <div class="contact-details">
+                                    <p class="title">Address</p>
+                                    <p>Kabankalan City, Negros Occidental</p>
+                                    <img src="images/white-line.PNG" alt="">
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Email</p>
+                                    <p>dionna.lorayna.20180382@gmail.com</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Phone</p>
+                                    <p>+639 0942 21948</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Telegram</p>
+                                    <p>+639 0942 21948</p>
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+                        </div>
+                        <!--LOCATION -->
+                        <div id="map"></div>
+                        <script
+                          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                          defer
+                        ></script>
+                    </div>
+                     
+
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
-<html>
